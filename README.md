@@ -29,3 +29,51 @@ Install todo List
   
 ```
     
+## Tech Stack
+
+**Client:** HTML, CSS, bootstrap5
+
+**Server:** Python, Django
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/abhinavsingwal/ToDo-List-Django
+```
+
+Go to the project directory
+
+```bash
+  cd todo
+```
+
+Install dependencies
+
+```bash
+  pip install requirements.txt
+```
+
+Start the server
+
+```bash
+  python manage.py runserver
+```
+
+Open URL
+
+```bash
+  http://localhost:8000/
+```
+
+## Feedback
+
+If you have any feedback, please reach out to us at abhinavsingwal@gmail.com
+
+
+## Support
+
+For support, email abhinavsingwal@gmail.com or join our Slack channel.
+
