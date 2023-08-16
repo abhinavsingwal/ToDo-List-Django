@@ -23,7 +23,7 @@ Install todo List
 ```bash
   pip install django 
   cd todo
-  pip install requirements.txt
+  pip install -r requirements.txt
   python manage.py runserver 
   http://localhost:8000/
   
@@ -53,7 +53,7 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  pip install requirements.txt
+  pip install -r requirements.txt
 ```
 
 Start the server
