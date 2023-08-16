@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load bootstrap5 %}
+    {% bootstrap_css %}
+
+</head>
+<body>
+<!--<h3>Update Task</h3>-->
+<!--<form method="POST" action="">-->
+<!--    {% csrf_token %}-->
+<!--    {{form}}-->
+<!--  <input type="submit" name="Update Task">-->
+<!--</form>-->
+<div class="container mt-3 ">
+    <h1>Update Task</h1>
+
+ <div class="input-group mb-3">
+     <form method="POST" actions="/">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+<!--     <input type="text" class="form-control" placeholder="Search">-->
+         <button class="btn btn-success" type="submit">Go</button>
+</form>
+ </div>
+</div>
+</body>
+</html>
